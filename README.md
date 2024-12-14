@@ -26,9 +26,10 @@ MdAPE для Ридж регрессии: 15.29%
 
 R-квадрат: 0.30
 
+# K-NN:
+
 ![image](https://github.com/user-attachments/assets/7cf8e96d-f3dc-4e7b-a9bd-6dcaacbce5af)
 
-# K-NN:
 
 Среднеквадратическое отклонение: 508400682.25
 
@@ -38,10 +39,11 @@ MdAPE на обучающих данных: 7.53%
 
 MdAPE на тестовых данных: 8.77%
 
+# Дерево решений:
+
 
 ![image](https://github.com/user-attachments/assets/6b50cefc-1725-41be-b35e-3e9a6af4ee6e)
 
-# Дерево решений:
 
 Среднеквадратическое отклонение: 442229835.49
 
