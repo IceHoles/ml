@@ -68,3 +68,20 @@ MdAPE для дерева принятия решений: 8.20%
 
 Лучший результат показало дерево решений, ошибка 8.2%
 Худший результат - K-NN, ошибка 8.77%
+
+
+# Кластеризация 
+
+1. Метод KMeans
+![image](https://github.com/user-attachments/assets/615def0d-5dcf-4462-8e94-0581c55b81b1)
+Silhouette Score for KMeans: 0.2374
+
+3. Метод DBSCAN
+![image](https://github.com/user-attachments/assets/8b4a8408-272e-4e7e-831a-e498f081e82b)
+Silhouette Score for DBSCAN: 0.176
+
+4. Иерархическая кластеризация
+![image](https://github.com/user-attachments/assets/65987154-0eb4-4d56-8269-dcfe4653c39d)
+Silhouette Score for Agglomerative: 0.202
+
+Лучший метод кластеризации - KMeans, DBSCAN плохо справляется из-за сложной структуры данных, иерархическая кластеризация выяыляет кластеры, схожие с методом KMeans. Коэффициент далёк от единицы, но при изменении параметров (увеличении количества кластеров больше 3) он становится только хуже.
